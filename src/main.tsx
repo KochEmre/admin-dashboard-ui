@@ -7,7 +7,7 @@ import './index.css'
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     {/* Wrap App with BrowserRouter */}
-    <BrowserRouter>
+    <BrowserRouter basename="/admin-dashboard-ui">
       <App />
     </BrowserRouter>
   </StrictMode>,
